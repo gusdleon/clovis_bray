@@ -1,0 +1,8 @@
+name = "clovis_bray"
+main = "src/index.ts"
+compatibility_date = "2022-06-23"
+
+[[r2_buckets]]
+binding = 'MY_BUCKET' # <~ valid JavaScript variable name
+bucket_name = 'clovis-bray-bucket'
+preview_bucket_name = 'clovis-bray-preview-bucket'
