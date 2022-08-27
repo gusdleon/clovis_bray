@@ -43,7 +43,7 @@ export default {
 			);
 
 			if(url.pathname === '/') {
-				return new Response('You finded the clovis bray bucket!');
+				return new Response('You found the clovis bray on Google Assistant bucket!');
 			}
 
 			// If not in cache, get it from R2
