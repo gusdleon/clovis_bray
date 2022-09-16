@@ -61,7 +61,7 @@ export default {
 			// Cache API respects Cache-Control headers. Setting s-max-age to 10
 			// will limit the response to be in cache for 10 seconds max
 			// Any changes made to the response here will be reflected in the cached value
-			headers.append('Cache-Control', 's-maxage=100');
+			headers.append('Cache-Control', 's-maxage=86400');
 
 			response = new Response(object.body, {
 				headers,
